@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = ["00-rust-basics"]
+
+[workspace.package]
+edition = "2021"
+publish = false
+
+[workspace.dependencies]
+libc = "0.2"
